@@ -1,0 +1,120 @@
+body {
+    background-color: #F2F2F2;
+    display:grid;
+   
+}
+
+main {
+    margin: 0 5px 0 5px;;
+}
+
+header {
+    background:  #735C5A;
+    
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.imgfolha { 
+    max-width: 200px;
+    font-size: 20px;
+
+ }
+
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #D9A7A3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+} 
+
+.teste{
+    border: 3px solid;
+}
+
+.perfil h1 {  
+    color: #D9A7A3;
+    font-size: 50px;
+    padding: 0px 0px 0px 1px;
+}
+
+.perfil{
+    padding-left: 45px;
+    display:flex;
+    align-items: center;
+
+}
+
+.textodoperfil{
+    display: block;
+    margin: 2px;
+    text-align: center;
+    bottom: 125px;
+    left: 125px;
+    
+
+}
+.devfront{
+    color:#828091;
+    padding: 0px 0px 0px 0px;
+   
+}
+
+.imagemjocelia {
+    width:auto;
+    height:auto;
+    margin: 20px 0px;
+    max-width:200px;
+    max-height:150px;
+    border-radius: 80px;
+    border:4px solid #D9A7A3;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    
+
+    
+}
+
+.icon_chave{
+   font-size: 200px;
+   position: relative;
+   left: 115%;
+   top: 125px;
+   color:#828091;
+   border: 5px solid;
+
+}
+
+h2 {
+    font-size: 25px;
+    color: #735C5A;
+}
+
+h3 {
+   color: #735C5A;
+   font-size: 25px;
+}
+@font-face {
+    font-family: graciast;
+    src: url("Gracias.ttf")
+
+}
+
+.fonte-externa {
+    
+    font-family: graciast
+}
